@@ -1,0 +1,17 @@
+2020-10-18T14:05:42+00:00 CRITICAL Cannot redeclare wc_admin_number_format() (previously declared in D:\Xampp\htdocs\wordpress1\wp-content\plugins\woocommerce\packages\woocommerce-admin\includes\core-functions.php:18) in D:\Xampp\htdocs\wordpress1\wp-content\plugins\woocommerce-admin\includes\core-functions.php on line 18
+
+2020-10-18T14:05:43+00:00 CRITICAL Cannot redeclare wc_admin_number_format() (previously declared in D:\Xampp\htdocs\wordpress1\wp-content\plugins\woocommerce\packages\woocommerce-admin\includes\core-functions.php:18) in D:\Xampp\htdocs\wordpress1\wp-content\plugins\woocommerce-admin\includes\core-functions.php on line 18
+
+2020-10-18T14:05:43+00:00 CRITICAL Cannot redeclare wc_admin_number_format() (previously declared in D:\Xampp\htdocs\wordpress1\wp-content\plugins\woocommerce\packages\woocommerce-admin\includes\core-functions.php:18) in D:\Xampp\htdocs\wordpress1\wp-content\plugins\woocommerce-admin\includes\core-functions.php on line 18
+
+2020-10-18T14:14:52+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on bool in D:\Xampp\htdocs\wordpress1\wp-content\themes\porto\woocommerce\single-product\sale-flash.php:22
+Stack trace:
+#0 D:\Xampp\htdocs\wordpress1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include()
+#1 D:\Xampp\htdocs\wordpress1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1605): wc_get_template('single-product/...')
+#2 D:\Xampp\htdocs\wordpress1\wp-includes\class-wp-hook.php(287): woocommerce_show_product_sale_flash('')
+#3 D:\Xampp\htdocs\wordpress1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\Xampp\htdocs\wordpress1\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 D:\Xampp\htdocs\wordpress1\wp-content\themes\porto\inc\functions\woocommerce.php(334): do_action('woocommerce_bef...')
+#6 D:\Xampp\htdocs\wordpress1\wp-includes\class-wp-hook.php(287): porto_product_quickview('')
+#7 D:\Xampp\htdocs\wordpress1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('',  in D:\Xampp\htdocs\wordpress1\wp-content\themes\porto\woocommerce\single-product\sale-flash.php on line 22
+

@@ -1,0 +1,4 @@
+2020-10-17T08:11:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Xampp\htdocs\wordpress1\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-10-17T08:55:14+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\Xampp\htdocs\wordpress1\wp-content\themes\illdy\footer.php on line 32
+
